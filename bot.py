@@ -12,7 +12,8 @@ from telegram.ext import (
 # =============================================
 # ⚙️ الإعدادات
 # =============================================
-BOT_TOKEN = "8659028115:AAGAn26CbFSRgNy4eOhNjkVCJFWdo0M12zs"
+import os
+BOT_TOKEN = os.environ.get ("8659028115:AAGAn26CbFSRgNy4eOhNjkVCJFWdo0M12zs")
 EXCEL_FILE = "/home/Deanown30/جدول المعيدين.xlsx"
 
 # =============================================
